@@ -1,0 +1,62 @@
+/* Dita2 */
+body {
+
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar {
+    display: flex; /* i vendos te tre blloqet ne nje rresht */
+    justify-content: space-between;  /* i shtyn majtas ose djathtas */
+    align-items: center; /* i rreshton vertiklalisht ne qender */
+    padding: 10px 20p; /* linket i njxjerr ne nje rresht */
+}
+
+.nav-links {
+
+    display: flex;
+    gap: 20px; /* hapsira mes linqeve */
+    
+}
+
+.nav-links li {
+
+    list-style: none;
+}
+
+.logo img{
+
+    height: 120px;
+    width: none;
+}
+
+body {
+    background: rgb(185, 153, 153);
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.card {
+
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.hero {
+
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+@media (min-width: 600px) {
+    
+.cards {
+
+    grid-template-columns: 1fr;
+}
+}
