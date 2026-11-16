@@ -1,0 +1,9 @@
+.badge { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: var(--radius-pill); font-size: 0.75rem; font-weight: 500; white-space: nowrap; }
+.badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.warn { background: var(--c-warn-soft); color: var(--c-warn); }
+.info { background: var(--c-info-soft); color: var(--c-info); }
+.mocha { background: var(--c-blush-soft); color: var(--c-mocha-dark); }
+.success { background: var(--c-success-soft); color: var(--c-success); }
+.danger { background: var(--c-danger-soft); color: var(--c-danger); }
+.muted { background: var(--c-cream); color: var(--c-muted); }
+.sage { background: var(--c-sage-soft); color: #5b6b50; }

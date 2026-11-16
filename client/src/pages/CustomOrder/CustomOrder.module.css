@@ -1,0 +1,52 @@
+.stepper { list-style: none; display: flex; justify-content: center; gap: 8px; margin: 36px 0 32px; padding: 0; flex-wrap: wrap; }
+.stepper li { display: flex; align-items: center; }
+.stepper li + li::before { content: ''; width: 36px; height: 1px; background: var(--c-line); margin-right: 8px; }
+.stepper button { display: flex; align-items: center; gap: 10px; background: none; border: 0; color: var(--c-muted); font-size: 0.9rem; padding: 6px; }
+.stepper button:disabled { cursor: default; }
+.stepper button span { width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--c-line); display: grid; place-items: center; font-size: 0.85rem; background: #fff; }
+.current button { color: var(--c-ink); font-weight: 500; }
+.current button span { background: var(--c-mocha); border-color: var(--c-mocha); color: #fff; }
+.done button { color: var(--c-mocha); }
+.done button span { background: var(--c-blush); border-color: var(--c-blush); color: var(--c-mocha-dark); }
+
+.grid { display: grid; grid-template-columns: 1fr 360px; gap: 40px; align-items: start; padding-bottom: 80px; }
+.panel { background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius-lg); padding: clamp(20px, 4vw, 34px); }
+.panel h2 { font-size: 1.9rem; margin-bottom: 4px; }
+.lead { color: var(--c-muted); margin-bottom: 24px; }
+.sub { font-size: 1.35rem; margin: 30px 0 12px; }
+
+.flowers { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.flower { border: 1px solid var(--c-line); border-radius: var(--radius); background: #fff; transition: border-color 0.2s, box-shadow 0.2s; }
+.flower.sel { border-color: var(--c-mocha); box-shadow: 0 0 0 3px rgba(125, 101, 96, 0.1); }
+.flowerHead { width: 100%; background: none; border: 0; text-align: left; padding: 14px 16px; display: grid; grid-template-columns: auto 1fr; column-gap: 12px; align-items: center; }
+.flowerHead small { grid-column: 2; color: var(--c-muted); font-size: 0.8rem; }
+.flowerHead strong { font-family: var(--font-serif); font-size: 1.25rem; font-weight: 500; color: var(--c-ink); }
+.tick { grid-row: span 2; width: 22px; height: 22px; border-radius: 50%; border: 1.5px solid var(--c-line); display: grid; place-items: center; color: #fff; }
+.sel .tick { background: var(--c-mocha); border-color: var(--c-mocha); }
+.flowerOpts { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding: 0 16px 14px; }
+.swatches { display: flex; gap: 6px; }
+.swatches button { width: 24px; height: 24px; border-radius: 50%; background: var(--sw); border: 1px solid rgba(0, 0, 0, 0.12); padding: 0; }
+.swatches .swOn { outline: 2px solid var(--c-mocha); outline-offset: 2px; }
+.colorName { font-size: 0.8rem; color: var(--c-muted); flex: 1; }
+.stems { display: flex; gap: 8px; align-items: center; color: var(--c-mocha); margin: 20px 0 0; }
+
+.options { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; margin-top: 16px; }
+.option { display: flex; flex-direction: column; gap: 2px; padding: 16px; border: 1px solid var(--c-line); border-radius: var(--radius); cursor: pointer; transition: all 0.2s; background: #fff; }
+.option input { position: absolute; opacity: 0; pointer-events: none; }
+.option strong { font-weight: 500; color: var(--c-ink); }
+.option small { color: var(--c-muted); font-size: 0.8rem; }
+.option em { font-style: normal; font-size: 0.82rem; color: var(--c-mocha); margin-top: 6px; }
+.option:hover { border-color: var(--c-mocha); }
+.optOn { border-color: var(--c-mocha); background: var(--c-blush-soft); }
+.option:has(input:focus-visible) { outline: 2px solid var(--c-mocha); }
+
+.pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.pills button { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--c-line); background: #fff; border-radius: var(--radius-pill); padding: 9px 16px; font-size: 0.88rem; color: var(--c-text); transition: all 0.2s; }
+.pills button small { color: var(--c-muted); }
+.pills button:hover { border-color: var(--c-mocha); }
+.pills .pillOn { background: var(--c-mocha); color: #fff; border-color: var(--c-mocha); }
+.pills .pillOn small { color: var(--c-blush); }
+
+.nav { display: flex; justify-content: space-between; margin-top: 24px; }
+.emptySum { font-size: 0.85rem; color: var(--c-muted); text-align: center; margin: 0; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .stepper li + li::before { width: 14px; } }

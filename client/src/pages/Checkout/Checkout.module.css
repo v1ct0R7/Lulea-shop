@@ -1,0 +1,4 @@
+.grid { display: grid; grid-template-columns: 1fr 380px; gap: 40px; align-items: start; }
+.err { margin-bottom: 20px; }
+.terms { font-size: 0.78rem; color: var(--c-muted); text-align: center; margin: 0; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }

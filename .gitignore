@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Generated data and uploads
+/server/data/db.json
+/server/uploads/*
+!/server/uploads/.gitkeep
+
+# Build output and caches
+/client/dist/
+/dist/
+/build/
+coverage/
+.cache/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db

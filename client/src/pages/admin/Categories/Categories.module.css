@@ -1,0 +1,15 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+.card { display: grid; grid-template-columns: 110px 1fr; overflow: hidden; }
+.img { min-height: 100%; }
+.body { padding: 18px; display: flex; flex-direction: column; gap: 8px; }
+.top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.top h2 { font-size: 1.4rem; margin: 0; }
+.count { font-size: 0.78rem; color: var(--c-muted); white-space: nowrap; }
+.body p { font-size: 0.85rem; color: var(--c-muted); margin: 0; }
+.types { display: flex; flex-wrap: wrap; gap: 6px; }
+.types span { font-size: 0.75rem; background: var(--c-cream); color: var(--c-mocha-dark); padding: 3px 10px; border-radius: var(--radius-pill); }
+.actions { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 6px; }
+.typeEditor { display: flex; flex-direction: column; gap: 8px; }
+.typeRow { display: flex; gap: 8px; align-items: center; }
+.typeRow .input { padding: 9px 12px; }
+.color { width: 64px; height: 40px; padding: 2px; border: 1px solid var(--c-line); border-radius: var(--radius-sm); background: #fff; }

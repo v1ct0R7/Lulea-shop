@@ -1,0 +1,9 @@
+{
+  "name": "Lulea – Dyqan Lulesh",
+  "short_name": "Lulea",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf6ef",
+  "theme_color": "#fbf6ef",
+  "icons": [{ "src": "/logo.png", "sizes": "500x500", "type": "image/png" }]
+}

@@ -1,0 +1,13 @@
+.card { position: relative; display: block; aspect-ratio: 3 / 4; border-radius: var(--radius-lg); overflow: hidden; }
+.img { transition: transform 0.9s var(--ease); }
+.card:hover .img { transform: scale(1.05); }
+.overlay {
+  position: absolute; inset: auto 0 0 0; padding: 70px 22px 22px;
+  background: linear-gradient(180deg, transparent, rgba(47, 38, 36, 0.62));
+  color: #fff;
+}
+.overlay h3 { color: #fff; font-size: 1.75rem; margin-bottom: 4px; }
+.overlay p { font-size: 0.82rem; opacity: 0.85; margin-bottom: 10px; }
+.more { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; }
+.more svg { transition: transform 0.3s var(--ease); }
+.card:hover .more svg { transform: translateX(4px); }

@@ -1,0 +1,9 @@
+.wrap { display: grid; grid-template-columns: 120px 1fr; gap: 16px; align-items: stretch; }
+.preview { aspect-ratio: 4 / 5; border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--c-line); }
+.side { display: flex; flex-direction: column; gap: 8px; }
+.drop { flex: 1; border: 1.5px dashed var(--c-line); border-radius: var(--radius); background: var(--c-bg); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; color: var(--c-mocha); padding: 16px; transition: all 0.2s; }
+.drop:hover { border-color: var(--c-mocha); background: var(--c-blush-soft); }
+.drop span { font-size: 0.88rem; color: var(--c-text); }
+.drop small { font-size: 0.75rem; color: var(--c-muted); }
+.remove { align-self: flex-start; background: none; border: 0; color: var(--c-danger); font-size: 0.82rem; padding: 0; text-decoration: underline; }
+.err { color: var(--c-danger); font-size: 0.82rem; }

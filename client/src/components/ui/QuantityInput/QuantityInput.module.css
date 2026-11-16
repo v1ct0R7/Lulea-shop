@@ -1,0 +1,8 @@
+.qty { display: inline-flex; align-items: center; border: 1px solid var(--c-line); border-radius: var(--radius-pill); background: #fff; }
+.qty button { width: 40px; height: 44px; border: 0; background: none; color: var(--c-mocha); display: grid; place-items: center; }
+.qty button:disabled { opacity: 0.35; cursor: default; }
+.qty input { width: 40px; border: 0; text-align: center; background: none; -moz-appearance: textfield; font-weight: 500; }
+.qty input::-webkit-inner-spin-button, .qty input::-webkit-outer-spin-button { -webkit-appearance: none; }
+.qty input:focus { outline: none; }
+.small button { width: 32px; height: 34px; }
+.small input { width: 30px; font-size: 0.9rem; }

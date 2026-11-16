@@ -1,0 +1,15 @@
+.footer { background: var(--c-cream); border-top: 1px solid var(--c-line); margin-top: 40px; }
+.grid { display: grid; gap: 40px; grid-template-columns: 1.3fr 1fr 1fr 1.3fr; padding-top: 64px; padding-bottom: 48px; }
+.brand img { width: 96px; height: 96px; border-radius: 50%; mix-blend-mode: multiply; margin-bottom: 8px; }
+.brand p { font-family: var(--font-serif); font-style: italic; font-size: 1.15rem; color: var(--c-mocha); }
+.footer h4 { font-family: var(--font-sans); font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--c-mocha); margin-bottom: 18px; }
+.footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; font-size: 0.92rem; }
+.footer ul a:hover { color: var(--c-mocha); }
+.contact li { display: flex; gap: 10px; align-items: flex-start; }
+.contact svg { flex-shrink: 0; margin-top: 3px; color: var(--c-mocha); }
+.social { display: flex; gap: 8px; }
+.social a { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--c-line); display: grid; place-items: center; color: var(--c-mocha); transition: all 0.2s; }
+.social a:hover { background: var(--c-mocha); color: #fff; border-color: var(--c-mocha); }
+.bottom { border-top: 1px solid var(--c-line); padding: 18px 0; font-size: 0.82rem; color: var(--c-muted); text-align: center; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }

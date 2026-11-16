@@ -1,0 +1,586 @@
+{
+  "settings": {
+    "shopName": "Lulea",
+    "tagline": "The Best-Looking Flowers in Town",
+    "phone": "+383 44 000 000",
+    "email": "info@lulea.com",
+    "address": "Rruga e Luleve 12, Prishtinë",
+    "hours": "E Hënë – E Shtunë: 08:00 – 21:00",
+    "currency": "EUR",
+    "deliveryFee": 3,
+    "freeDeliveryFrom": 50,
+    "cities": [
+      "Prishtinë",
+      "Fushë Kosovë",
+      "Podujevë",
+      "Lipjan",
+      "Obiliq",
+      "Prizren",
+      "Pejë",
+      "Gjakovë",
+      "Ferizaj",
+      "Gjilan",
+      "Mitrovicë"
+    ]
+  },
+  "categories": [
+    {
+      "id": "4c9860b0-eb82-4856-a878-189227c85652",
+      "slug": "buqeta",
+      "name": "Buqeta",
+      "description": "Buqeta të punuara me dorë për çdo moment – nga romantike te pranverore.",
+      "image": "",
+      "accent": "#c98b8b",
+      "order": 1,
+      "types": [
+        {
+          "id": "24fd11c7-5e60-4cbd-89e6-891db46dcba6",
+          "name": "Romantike"
+        },
+        {
+          "id": "6c952720-5f19-4c91-b9ac-876949a580e4",
+          "name": "Pranverore"
+        },
+        {
+          "id": "ee9976a6-1a44-40a3-b6d6-58576e76a64d",
+          "name": "Pastel"
+        },
+        {
+          "id": "48381b18-f69f-4484-af3c-66ac6b4ea5e2",
+          "name": "Minimaliste"
+        }
+      ]
+    },
+    {
+      "id": "41b17ebf-5f7a-4e7e-a5a7-990adef638b1",
+      "slug": "trendafila",
+      "name": "Trëndafila",
+      "description": "Trëndafila të freskët ekuadorianë dhe vendas, në ngjyra klasike dhe të rralla.",
+      "image": "",
+      "accent": "#b5535b",
+      "order": 2,
+      "types": [
+        {
+          "id": "23b89aad-ed42-4371-a913-2edbc51311a5",
+          "name": "Të kuq"
+        },
+        {
+          "id": "dcc13311-27c6-4e94-91e0-08ad2986720b",
+          "name": "Të bardhë"
+        },
+        {
+          "id": "d51e634b-b554-4ffc-b523-ecdb8a4c43f8",
+          "name": "Rozë"
+        },
+        {
+          "id": "565a0110-9f2d-4170-b7fd-a085489c316c",
+          "name": "Trëndafila të përjetshëm"
+        }
+      ]
+    },
+    {
+      "id": "60715740-1a51-4901-abc6-9da751ff97fb",
+      "slug": "kuti-me-lule",
+      "name": "Kuti me Lule",
+      "description": "Kuti elegante luksoze me lule, ideale si dhuratë.",
+      "image": "",
+      "accent": "#8f7a6b",
+      "order": 3,
+      "types": [
+        {
+          "id": "712ab079-c5a1-46ec-b4fa-f60219f55fae",
+          "name": "Kuti të rrumbullakëta"
+        },
+        {
+          "id": "ae44a3b8-672d-4902-ae5f-1bd349254fbf",
+          "name": "Kuti zemër"
+        },
+        {
+          "id": "0ce4b7ce-1580-4b3d-afbf-ca0633df5aef",
+          "name": "Kuti me çokollata"
+        }
+      ]
+    },
+    {
+      "id": "52a49fb2-c2a0-4a48-a4e2-07d88849fed6",
+      "slug": "bime-shtepie",
+      "name": "Bimë Shtëpie",
+      "description": "Bimë dekorative në saksi që sjellin jetë në shtëpi dhe zyrë.",
+      "image": "",
+      "accent": "#7f9774",
+      "order": 4,
+      "types": [
+        {
+          "id": "d8ec3d09-19a7-495a-9930-8b9226fc7ab2",
+          "name": "Orkide"
+        },
+        {
+          "id": "9f9b1d2b-923e-4f07-8a56-b57481586909",
+          "name": "Sukulente"
+        },
+        {
+          "id": "bacc5bd3-31f0-4e98-b70a-5611e21e7787",
+          "name": "Bimë të gjelbra"
+        }
+      ]
+    },
+    {
+      "id": "20ced8a6-f8e8-4c35-ba8a-d210cd6d1a4a",
+      "slug": "dasma-nuse",
+      "name": "Dasma & Nuse",
+      "description": "Buqeta nusesh, dekor tavolinash dhe aranzhime për ditën tuaj të veçantë.",
+      "image": "",
+      "accent": "#c7b299",
+      "order": 5,
+      "types": [
+        {
+          "id": "5c786912-a6e4-4167-b82d-e5f74cbc1bf8",
+          "name": "Buqeta nuseje"
+        },
+        {
+          "id": "deb6a5bf-6a16-4364-a585-764eb85f06b1",
+          "name": "Lule për krushqit"
+        },
+        {
+          "id": "c4b11df7-20d6-4909-a9b2-c2a200750141",
+          "name": "Dekor tavoline"
+        }
+      ]
+    },
+    {
+      "id": "8e0ed11a-44a6-4da4-b7cf-3f5722acb2e2",
+      "slug": "ngushellime",
+      "name": "Ngushëllime",
+      "description": "Kurora dhe aranzhime me respekt për momentet e vështira.",
+      "image": "",
+      "accent": "#8a8f99",
+      "order": 6,
+      "types": [
+        {
+          "id": "dc536b9c-25f7-4a8e-99f0-bcbf6378b1ef",
+          "name": "Kurora"
+        },
+        {
+          "id": "6879a259-7cfa-4854-be4a-cd830a7ada62",
+          "name": "Aranzhime"
+        },
+        {
+          "id": "2f1c9a66-65b4-4ce9-b849-6a8aa1c08cd3",
+          "name": "Buqeta ngushëllimi"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "26c828de-372e-4953-a085-1f04ee497460",
+      "slug": "buqeta-dashuri-e-bute",
+      "name": "Buqeta “Dashuri e Butë”",
+      "description": "Trëndafila rozë, eustoma dhe gjethe eukalipti, të mbështjella në letër kraft krem.",
+      "price": 45,
+      "oldPrice": 55,
+      "categoryId": "4c9860b0-eb82-4856-a878-189227c85652",
+      "typeId": "24fd11c7-5e60-4cbd-89e6-891db46dcba6",
+      "image": "",
+      "featured": true,
+      "inStock": true,
+      "createdAt": "2026-11-16T11:31:47.860Z"
+    },
+    {
+      "id": "bdc7a400-54d1-4132-a63f-897b376c96af",
+      "slug": "buqeta-mengjes-pranvere",
+      "name": "Buqeta “Mëngjes Pranvere”",
+      "description": "Tulipanë, narcisë dhe zymbylë – freski e pastër pranverore.",
+      "price": 38,
+      "oldPrice": null,
+      "categoryId": "4c9860b0-eb82-4856-a878-189227c85652",
+      "typeId": "6c952720-5f19-4c91-b9ac-876949a580e4",
+      "image": "",
+      "featured": true,
+      "inStock": true,
+      "createdAt": "2026-11-16T10:31:47.860Z"
+    },
+    {
+      "id": "75a0fcfd-a07a-4d6a-87e8-ffff3b540c4a",
+      "slug": "buqeta-re-pastel",
+      "name": "Buqeta “Re Pastel”",
+      "description": "Hortensia, trëndafila spray dhe lisianthus në tone pastel.",
+      "price": 52,
+      "oldPrice": null,
+      "categoryId": "4c9860b0-eb82-4856-a878-189227c85652",
+      "typeId": "ee9976a6-1a44-40a3-b6d6-58576e76a64d",
+      "image": "",
+      "featured": false,
+      "inStock": true,
+      "createdAt": "2026-11-16T09:31:47.860Z"
+    },
+    {
+      "id": "025ae38b-33a5-4dc8-80fa-3849a14e929f",
+      "slug": "buqeta-thjeshtesi",
+      "name": "Buqeta “Thjeshtësi”",
+      "description": "Kala të bardha me gjelbërim minimal – eleganca e qetë.",
+      "price": 29,
+      "oldPrice": null,
+      "categoryId": "4c9860b0-eb82-4856-a878-189227c85652",
+      "typeId": "48381b18-f69f-4484-af3c-66ac6b4ea5e2",
+      "image": "",
+      "featured": false,
+      "inStock": true,
+      "createdAt": "2026-11-16T08:31:47.860Z"
+    },
+    {
+      "id": "2f7cb2b8-95c4-4ff5-bb72-53774e8684e9",
+      "slug": "25-trendafila-te-kuq",
+      "name": "25 Trëndafila të Kuq",
+      "description": "Njëzet e pesë trëndafila të kuq me kërcell të gjatë, simboli klasik i dashurisë.",
+      "price": 65,
+      "oldPrice": null,
+      "categoryId": "41b17ebf-5f7a-4e7e-a5a7-990adef638b1",
+      "typeId": "23b89aad-ed42-4371-a913-2edbc51311a5",
+      "image": "",
+      "featured": true,
+      "inStock": true,
+      "createdAt": "2026-11-16T07:31:47.860Z"
+    },
+    {
+      "id": "f7474a65-053f-45eb-b70c-00d406560e10",
+      "slug": "trendafila-te-bardhe-pasterti",
+      "name": "Trëndafila të Bardhë “Pastërti”",
+      "description": "15 trëndafila të bardhë me gjelbërim të freskët.",
+      "price": 48,
+      "oldPrice": null,
+      "categoryId": "41b17ebf-5f7a-4e7e-a5a7-990adef638b1",
+      "typeId": "dcc13311-27c6-4e94-91e0-08ad2986720b",
+      "image": "",
+      "featured": false,
+      "inStock": true,
+      "createdAt": "2026-11-16T06:31:47.860Z"
+    },
+    {
+      "id": "392377c8-63a1-4ed1-99bf-8f4481f102e4",
+      "slug": "trendafila-roze-embelsi",
+      "name": "Trëndafila Rozë “Ëmbëlsi”",
+      "description": "15 trëndafila rozë të butë, të lidhur me fjongo mëndafshi.",
+      "price": 49,
+      "oldPrice": null,
+      "categoryId": "41b17ebf-5f7a-4e7e-a5a7-990adef638b1",
+      "typeId": "d51e634b-b554-4ffc-b523-ecdb8a4c43f8",
+      "image": "",
+      "featured": false,
+      "inStock": true,
+      "createdAt": "2026-11-16T05:31:47.860Z"
+    },
+    {
+      "id": "90d184e3-435c-4c69-8dd3-1d597e0005b4",
+      "slug": "trendafil-i-perjetshem-ne-kupole",
+      "name": "Trëndafil i Përjetshëm në Kupolë",
+      "description": "Trëndafil i stabilizuar që zgjat deri në 3 vite, nën kupolë xhami.",
+      "price": 59,
+      "oldPrice": 69,
+      "categoryId": "41b17ebf-5f7a-4e7e-a5a7-990adef638b1",
+      "typeId": "565a0110-9f2d-4170-b7fd-a085489c316c",
+      "image": "",
+      "featured": true,
+      "inStock": true,
+      "createdAt": "2026-11-16T04:31:47.860Z"
+    },
+    {
+      "id": "b09155ee-332c-4c76-8360-9ee1a555d0ea",
+      "slug": "kuti-elegance-e-rrumbullaket",
+      "name": "Kuti “Elegancë” e Rrumbullakët",
+      "description": "Kuti e zezë kadifeje me trëndafila të kuq të renditur me kujdes.",
+      "price": 72,
+      "oldPrice": null,
+      "categoryId": "60715740-1a51-4901-abc6-9da751ff97fb",
+      "typeId": "712ab079-c5a1-46ec-b4fa-f60219f55fae",
+      "image": "",
+      "featured": true,
+      "inStock": true,
+      "createdAt": "2026-11-16T03:31:47.860Z"
+    },
+    {
+      "id": "9fc71f86-2b14-4cac-bbeb-c9e444090270",
+      "slug": "kuti-zemer-pergjithmone",
+      "name": "Kuti Zemër “Përgjithmonë”",
+      "description": "Kuti në formë zemre me trëndafila rozë dhe të bardhë.",
+      "price": 85,
+      "oldPrice": null,
+      "categoryId": "60715740-1a51-4901-abc6-9da751ff97fb",
+      "typeId": "ae44a3b8-672d-4902-ae5f-1bd349254fbf",
+      "image": "",
+      "featured": false,
+      "inStock": true,
+      "createdAt": "2026-11-16T02:31:47.860Z"
+    },
+    {
+      "id": "762733b3-2e5a-4b15-861e-133007b6ce4d",
+      "slug": "kuti-me-lule-cokollata",
+      "name": "Kuti me Lule & Çokollata",
+      "description": "Kombinim i luleve sezonale me çokollata belge.",
+      "price": 79,
+      "oldPrice": null,
+      "categoryId": "60715740-1a51-4901-abc6-9da751ff97fb",
+      "typeId": "0ce4b7ce-1580-4b3d-afbf-ca0633df5aef",
+      "image": "",
+      "featured": false,
+      "inStock": true,
+      "createdAt": "2026-11-16T01:31:47.860Z"
+    },
+    {
+      "id": "aa543e79-fcc6-4af4-aa16-3fb65c9f1777",
+      "slug": "orkide-e-bardhe-phalaenopsis",
+      "name": "Orkide e Bardhë Phalaenopsis",
+      "description": "Orkide me dy degë në saksi qeramike – lehtë për t’u kujdesur.",
+      "price": 34,
+      "oldPrice": null,
+      "categoryId": "52a49fb2-c2a0-4a48-a4e2-07d88849fed6",
+      "typeId": "d8ec3d09-19a7-495a-9930-8b9226fc7ab2",
+      "image": "",
+      "featured": true,
+      "inStock": true,
+      "createdAt": "2026-11-16T00:31:47.860Z"
+    },
+    {
+      "id": "4cfc84ac-c550-4dfb-ad5d-8a0a2cdfc1de",
+      "slug": "set-sukulentesh",
+      "name": "Set Sukulentesh",
+      "description": "Tre sukulente në saksi betoni, perfekte për tavolinë pune.",
+      "price": 22,
+      "oldPrice": null,
+      "categoryId": "52a49fb2-c2a0-4a48-a4e2-07d88849fed6",
+      "typeId": "9f9b1d2b-923e-4f07-8a56-b57481586909",
+      "image": "",
+      "featured": false,
+      "inStock": true,
+      "createdAt": "2026-11-15T23:31:47.860Z"
+    },
+    {
+      "id": "b8530c9a-4a11-4ad1-af04-20f24c655da3",
+      "slug": "monstera-deliciosa",
+      "name": "Monstera Deliciosa",
+      "description": "Bimë tropikale me gjethe të mëdha, në saksi dekorative.",
+      "price": 39,
+      "oldPrice": null,
+      "categoryId": "52a49fb2-c2a0-4a48-a4e2-07d88849fed6",
+      "typeId": "bacc5bd3-31f0-4e98-b70a-5611e21e7787",
+      "image": "",
+      "featured": false,
+      "inStock": true,
+      "createdAt": "2026-11-15T22:31:47.860Z"
+    },
+    {
+      "id": "b2c65164-c2d5-4e01-b6c2-b9f1f2323acb",
+      "slug": "buqete-nuseje-klasike",
+      "name": "Buqetë Nuseje “Klasike”",
+      "description": "Trëndafila të bardhë, peoni dhe gjelbërim i butë – punuar sipas fustanit tuaj.",
+      "price": 120,
+      "oldPrice": null,
+      "categoryId": "20ced8a6-f8e8-4c35-ba8a-d210cd6d1a4a",
+      "typeId": "5c786912-a6e4-4167-b82d-e5f74cbc1bf8",
+      "image": "",
+      "featured": false,
+      "inStock": true,
+      "createdAt": "2026-11-15T21:31:47.860Z"
+    },
+    {
+      "id": "763a35a6-4062-4d0a-81c7-75dbbe980dfb",
+      "slug": "kurore-kujtim",
+      "name": "Kurorë “Kujtim”",
+      "description": "Kurorë me krizantema të bardha dhe gjelbërim, me shirit mesazhi.",
+      "price": 95,
+      "oldPrice": null,
+      "categoryId": "8e0ed11a-44a6-4da4-b7cf-3f5722acb2e2",
+      "typeId": "dc536b9c-25f7-4a8e-99f0-bcbf6378b1ef",
+      "image": "",
+      "featured": false,
+      "inStock": true,
+      "createdAt": "2026-11-15T20:31:47.860Z"
+    }
+  ],
+  "orders": [],
+  "customOptions": {
+    "flowers": [
+      {
+        "id": "rose",
+        "name": "Trëndafil",
+        "price": 2.5,
+        "colors": [
+          "E kuqe",
+          "E bardhë",
+          "Rozë",
+          "E verdhë",
+          "Portokalli"
+        ]
+      },
+      {
+        "id": "tulip",
+        "name": "Tulipan",
+        "price": 2,
+        "colors": [
+          "E kuqe",
+          "E bardhë",
+          "Rozë",
+          "E verdhë",
+          "Vjollcë"
+        ]
+      },
+      {
+        "id": "peony",
+        "name": "Peoni",
+        "price": 4.5,
+        "colors": [
+          "Rozë",
+          "E bardhë",
+          "Koral"
+        ]
+      },
+      {
+        "id": "lily",
+        "name": "Zambak",
+        "price": 3.5,
+        "colors": [
+          "E bardhë",
+          "Rozë",
+          "Portokalli"
+        ]
+      },
+      {
+        "id": "gerbera",
+        "name": "Gerbera",
+        "price": 1.8,
+        "colors": [
+          "E verdhë",
+          "Portokalli",
+          "Rozë",
+          "E kuqe"
+        ]
+      },
+      {
+        "id": "lisianthus",
+        "name": "Eustoma",
+        "price": 2.8,
+        "colors": [
+          "E bardhë",
+          "Vjollcë",
+          "Rozë"
+        ]
+      },
+      {
+        "id": "hydrangea",
+        "name": "Hortensia",
+        "price": 5,
+        "colors": [
+          "Blu",
+          "E bardhë",
+          "Rozë"
+        ]
+      },
+      {
+        "id": "sunflower",
+        "name": "Luledielli",
+        "price": 3,
+        "colors": [
+          "E verdhë"
+        ]
+      }
+    ],
+    "styles": [
+      {
+        "id": "classic",
+        "name": "Buqetë klasike",
+        "price": 0,
+        "description": "E rrumbullakët dhe e balancuar"
+      },
+      {
+        "id": "garden",
+        "name": "Stil kopshti",
+        "price": 5,
+        "description": "E lirë, natyrale, me gjelbërim"
+      },
+      {
+        "id": "box",
+        "name": "Në kuti",
+        "price": 15,
+        "description": "Kuti luksoze kadifeje"
+      },
+      {
+        "id": "basket",
+        "name": "Në shportë",
+        "price": 12,
+        "description": "Shportë thurur me dorë"
+      }
+    ],
+    "wrappings": [
+      {
+        "id": "kraft",
+        "name": "Letër kraft",
+        "price": 0
+      },
+      {
+        "id": "cream",
+        "name": "Letër krem mat",
+        "price": 2
+      },
+      {
+        "id": "blush",
+        "name": "Rozë pudër",
+        "price": 2
+      },
+      {
+        "id": "black",
+        "name": "E zezë elegante",
+        "price": 3
+      }
+    ],
+    "extras": [
+      {
+        "id": "eucalyptus",
+        "name": "Gjelbërim eukalipti",
+        "price": 4
+      },
+      {
+        "id": "ribbon",
+        "name": "Fjongo mëndafshi",
+        "price": 2
+      },
+      {
+        "id": "chocolate",
+        "name": "Çokollata belge",
+        "price": 8
+      },
+      {
+        "id": "teddy",
+        "name": "Arush i vogël",
+        "price": 10
+      },
+      {
+        "id": "vase",
+        "name": "Vazo qelqi",
+        "price": 12
+      }
+    ],
+    "colorThemes": [
+      "Romantike (të kuqe/rozë)",
+      "Pastel e butë",
+      "E bardhë & e gjelbër",
+      "Të ndezura & gazmore",
+      "Lëreni floristin të zgjedhë"
+    ],
+    "occasions": [
+      "Ditëlindje",
+      "Përvjetor",
+      "Dashuri",
+      "Urime",
+      "Faleminderit",
+      "Ngushëllim",
+      "Pa arsye"
+    ],
+    "timeSlots": [
+      "09:00 – 12:00",
+      "12:00 – 15:00",
+      "15:00 – 18:00",
+      "18:00 – 21:00"
+    ]
+  },
+  "blockedPhones": []
+}

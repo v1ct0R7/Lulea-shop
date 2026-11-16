@@ -1,0 +1,8 @@
+.box { background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius-lg); padding: 28px; position: sticky; top: calc(var(--header-h) + 20px); display: flex; flex-direction: column; gap: 12px; }
+.title { font-size: 1.6rem; margin-bottom: 6px; }
+.lines { list-style: none; margin: 0 0 6px; padding: 0 0 12px; border-bottom: 1px dashed var(--c-line); display: grid; gap: 8px; font-size: 0.88rem; color: var(--c-muted); }
+.lines li { display: flex; justify-content: space-between; gap: 12px; }
+.row { display: flex; justify-content: space-between; font-size: 0.95rem; }
+.total { border-top: 1px solid var(--c-line); padding-top: 14px; margin-top: 4px; font-size: 1.15rem; font-weight: 600; color: var(--c-ink); }
+.hint { font-size: 0.82rem; color: var(--c-sage); margin: 0; }
+.pay { display: flex; gap: 8px; align-items: center; font-size: 0.82rem; color: var(--c-muted); background: var(--c-cream); padding: 10px 12px; border-radius: var(--radius-sm); }

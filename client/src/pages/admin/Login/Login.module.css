@@ -1,0 +1,4 @@
+.page { min-height: 100vh; display: grid; place-items: center; padding: 20px; background: radial-gradient(circle at 30% 20%, #fff, var(--c-blush-soft) 50%, var(--c-blush)); }
+.card { width: 100%; max-width: 400px; background: var(--c-surface); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); padding: 36px; display: flex; flex-direction: column; gap: 18px; }
+.card img { margin: -10px auto -14px; border-radius: 50%; mix-blend-mode: multiply; }
+.card h1 { font-size: 1.7rem; text-align: center; margin: 0 0 4px; }

@@ -1,0 +1,8 @@
+.grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 64px; align-items: center; }
+.art { aspect-ratio: 4 / 5; border-radius: var(--radius-lg); background: linear-gradient(160deg, var(--c-blush-soft), var(--c-blush)); display: grid; place-items: center; }
+.art svg { width: 60%; }
+.grid p { color: var(--c-muted); font-size: 1.05rem; }
+.values { list-style: none; padding: 0; margin: 28px 0 32px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.values li { display: flex; flex-direction: column; font-size: 0.85rem; color: var(--c-muted); border-top: 1px solid var(--c-blush); padding-top: 12px; }
+.values strong { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500; color: var(--c-ink); }
+@media (max-width: 860px) { .grid { grid-template-columns: 1fr; } .art { max-width: 360px; } .values { grid-template-columns: 1fr; } }

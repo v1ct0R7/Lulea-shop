@@ -1,0 +1,11 @@
+.wrap { padding: 64px 20px 96px; }
+.card { position: relative; max-width: 620px; margin: 0 auto; text-align: center; background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius-lg); padding: 56px clamp(20px, 5vw, 56px); overflow: hidden; }
+.art { position: absolute; width: 140px; right: -30px; top: -20px; opacity: 0.35; transform: rotate(20deg); }
+.check { width: 64px; height: 64px; border-radius: 50%; background: var(--c-success-soft); color: var(--c-success); display: grid; place-items: center; margin: 0 auto 20px; }
+.card > p { color: var(--c-muted); }
+.meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 28px 0; padding: 20px; background: var(--c-cream); border-radius: var(--radius); }
+.meta dt { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--c-muted); }
+.meta dd { margin: 4px 0 0; font-weight: 600; color: var(--c-ink); }
+.small { font-size: 0.88rem; }
+.small a { color: var(--c-mocha); }
+@media (max-width: 520px) { .meta { grid-template-columns: 1fr; } }
