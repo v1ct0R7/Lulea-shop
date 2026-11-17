@@ -18,7 +18,8 @@ COPY server/ ./server/
 COPY --from=client-build /app/client/dist ./client/dist
 
 RUN mkdir -p server/data server/uploads \
-    && chown -R node:node server/data server/uploads
+    && chown -R node:node server/data server/uploads \
+    && chmod -R a+rX client/dist
 
 USER node
 EXPOSE 4000

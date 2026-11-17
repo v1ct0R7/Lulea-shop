@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <>
       <Seo title="Kontakt" description="Kontaktoni Lulea për porosi, dasma dhe evente. Telefon, email, adresa dhe orari i punës." />
-      <PageHeader crumbs={[{ name: 'Ballina', path: '/' }, { name: 'Kontakt', path: '/kontakt' }]} eyebrow="Jemi këtu për ju" title="Na kontaktoni" text="Për porosi të mëdha, dasma ose evente, na telefononi ose na shkruani – përgjigjemi shpejt." />
+      <PageHeader crumbs={[{ name: 'Kryefaqja', path: '/' }, { name: 'Kontakt', path: '/kontakt' }]} eyebrow="Jemi këtu për ju" title="Na kontaktoni" text="Për porosi të mëdha, dasma ose evente, na telefononi ose na shkruani – përgjigjemi shpejt." />
       <section className={`container section ${styles.grid}`}>
         {items.map((it) => (
           <div key={it.label} className={styles.card}>

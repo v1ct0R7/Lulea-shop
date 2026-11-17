@@ -37,7 +37,7 @@ export default function Shop() {
   };
 
   const crumbs = [
-    { name: 'Ballina', path: '/' },
+    { name: 'Kryefaqja', path: '/' },
     { name: 'Dyqani', path: '/dyqani' },
     ...(category ? [{ name: category.name, path: `/kategori/${category.slug}` }] : []),
   ];

@@ -81,7 +81,7 @@ export default function CustomOrder() {
         description="Krijoni buqetën tuaj: zgjidhni lulet, ngjyrat, sasinë, stilin dhe mbështjellësin. Çmim në kohë reale, dërgesë në shtëpi dhe pagesë cash."
       />
       <PageHeader
-        crumbs={[{ name: 'Ballina', path: '/' }, { name: 'Krijo buqetën', path: '/porosi-e-personalizuar' }]}
+        crumbs={[{ name: 'Kryefaqja', path: '/' }, { name: 'Krijo buqetën', path: '/porosi-e-personalizuar' }]}
         eyebrow="Porosi e personalizuar"
         title="Krijo buqetën tënde"
         text="Ju zgjidhni çdo detaj – floristët tanë e kthejnë në art."

@@ -18,23 +18,25 @@ Vendosni `SITE_URL=https://domeni-juaj.com` në `.env` që sitemap/robots të ke
 
 ## Docker
 
-Ndërtoni imazhin nga rrënja e projektit:
+Kopjoni `server/.env.example` në `server/.env` dhe vendosni një fjalëkalim admini
+(minimumi 10 karaktere) dhe një `TOKEN_SECRET` të rastësishëm (minimumi 32 karaktere;
+gjenerojeni me `openssl rand -hex 32`).
+Nëse po kaloni nga kontejneri i nisur më parë me `docker run`, hiqeni atë pa
+fshirë volumes; të dhënat ruhen:
 
 ```bash
-docker build -t lulea .
-docker volume create lulea-data
-docker volume create lulea-uploads
-docker run -d --name lulea --restart unless-stopped \
-  -p 4000:4000 \
-  -e ADMIN_PASSWORD='vendos-nje-fjalekalim-te-forte' \
-  -e TOKEN_SECRET='vendos-nje-sekret-te-rastesishëm-me-te-pakten-32-karaktere' \
-  -e SITE_URL='https://domeni-juaj.com' \
-  -v lulea-data:/app/server/data \
-  -v lulea-uploads:/app/server/uploads \
-  lulea
+docker rm -f lulea
 ```
 
-Të dhënat e porosive dhe imazhet e ngarkuara ruhen në Docker volumes, prandaj mbeten pas rikrijimit të kontejnerit. Aplikacioni hapet në `http://localhost:4000`.
+Pastaj niseni aplikacionin nga rrënja e projektit:
+
+```bash
+docker compose up --build -d
+```
+
+Aplikacioni hapet në `http://localhost:4000`. Të dhënat e porosive dhe imazhet
+e ngarkuara ruhen në Docker volumes edhe pas rikrijimit të kontejnerit.
+Për ta ndalur aplikacionin përdorni `docker compose down`.
 
 ## Struktura
 

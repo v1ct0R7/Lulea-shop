@@ -6,7 +6,7 @@ import Icon from '../../ui/Icon/Icon';
 import styles from './Header.module.css';
 
 const links = [
-  { to: '/', label: 'Ballina', end: true },
+  { to: '/', label: 'Kryefaqja', end: true },
   { to: '/dyqani', label: 'Dyqani', mega: true },
   { to: '/porosi-e-personalizuar', label: 'Krijo Buqetën' },
   { to: '/rreth-nesh', label: 'Rreth Nesh' },
@@ -40,7 +40,7 @@ export default function Header() {
           <Icon name="menu" />
         </button>
 
-        <Link to="/" className={styles.brand} aria-label="Lulea – Ballina">
+        <Link to="/" className={styles.brand} aria-label="Lulea – Kryefaqja">
           <img src="/logo.png" alt="" width="52" height="52" />
           <span>Lulea</span>
         </Link>

@@ -8,7 +8,7 @@ export default function About() {
   return (
     <>
       <Seo title="Rreth Nesh" description="Lulea është një atelier lulesh që krijon buqeta të punuara me dorë me lulet më të freskëta, me dashuri për çdo detaj." />
-      <PageHeader crumbs={[{ name: 'Ballina', path: '/' }, { name: 'Rreth nesh', path: '/rreth-nesh' }]} eyebrow="Historia jonë" title="Rreth Lulea" />
+      <PageHeader crumbs={[{ name: 'Kryefaqja', path: '/' }, { name: 'Rreth nesh', path: '/rreth-nesh' }]} eyebrow="Historia jonë" title="Rreth Lulea" />
       <section className={`container section ${styles.grid}`}>
         <div className={styles.art}><FloralArt color="#7d6560" /></div>
         <div>

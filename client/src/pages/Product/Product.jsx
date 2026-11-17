@@ -45,7 +45,7 @@ export default function Product() {
 
   const accent = categories.find((c) => c.id === p.categoryId)?.accent;
   const crumbs = [
-    { name: 'Ballina', path: '/' },
+    { name: 'Kryefaqja', path: '/' },
     ...(p.category ? [{ name: p.category.name, path: `/kategori/${p.category.slug}` }] : []),
     { name: p.name, path: `/produkt/${p.slug}` },
   ];
