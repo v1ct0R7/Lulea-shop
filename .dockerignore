@@ -1,0 +1,14 @@
+.git
+.gitignore
+.dockerignore
+node_modules
+**/node_modules
+client/dist
+server/data/db.json
+server/data/db.json.tmp
+server/uploads/*
+!server/uploads/.gitkeep
+.env
+.env.*
+**/.env
+**/.env.*

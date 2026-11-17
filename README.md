@@ -16,6 +16,26 @@ npm run dev           # API në :4000, faqja në http://localhost:5173
 Prodhimi: `npm run build && npm start` – serveri shërben edhe React-in (një port i vetëm, 4000).
 Vendosni `SITE_URL=https://domeni-juaj.com` në `.env` që sitemap/robots të kenë URL-në e saktë.
 
+## Docker
+
+Ndërtoni imazhin nga rrënja e projektit:
+
+```bash
+docker build -t lulea .
+docker volume create lulea-data
+docker volume create lulea-uploads
+docker run -d --name lulea --restart unless-stopped \
+  -p 4000:4000 \
+  -e ADMIN_PASSWORD='vendos-nje-fjalekalim-te-forte' \
+  -e TOKEN_SECRET='vendos-nje-sekret-te-rastesishëm-me-te-pakten-32-karaktere' \
+  -e SITE_URL='https://domeni-juaj.com' \
+  -v lulea-data:/app/server/data \
+  -v lulea-uploads:/app/server/uploads \
+  lulea
+```
+
+Të dhënat e porosive dhe imazhet e ngarkuara ruhen në Docker volumes, prandaj mbeten pas rikrijimit të kontejnerit. Aplikacioni hapet në `http://localhost:4000`.
+
 ## Struktura
 
 ```
